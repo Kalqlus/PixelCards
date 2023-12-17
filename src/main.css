@@ -1,0 +1,89 @@
+/* imports */
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen&display=swap");
+
+/* All colors what are/will be used */
+:root {
+  --clr-white: #ffffff;
+  --clr-white-soft: #e6e6e6;
+  --clr-white-mute: #cccccc;
+
+  --clr-black: #0d0d0d;
+  --clr-black-soft: #1a1a1a;
+  --clr-black-mute: #262626;
+
+  --clr-purple: #603380;
+  --clr-purple-soft: #733d99;
+  --clr-purple-mute: #8647b3;
+}
+
+/* Respected color names with their intended usage */
+:root {
+  --clr-background-shine: var(--clr-black-mute);
+  --clr-backgroud: var(--clr-black-soft);
+  --clr-background-shadow: var(--clr-black);
+
+  --clr-text-shine: var(--clr-white);
+  --clr-text: var(--clr-white-soft);
+  --clr-text-shadow: var(--clr-white-mute);
+
+  --clr-accent-shine: var(--clr-accent);
+  --clr-accent: var(--clr-purple-soft);
+  --clr-accent-shadow: var(--clr-accent-mute);
+}
+
+/* Usefull variables while styling */
+:root {
+  --header-height: 125px;
+}
+
+/* Spacings */
+
+:root {
+  --spacing-xxs: 0.25rem;
+  --spacing-xs: 0.5rem;
+  --spacing-s: 1rem;
+  --spacing-m: 1.5rem;
+  --spacing-l: 2rem;
+  --spacing-xl: 3rem;
+  --spacing-xxl: 4rem;
+  --spacing-xxxl: 6rem;
+  --spacing-xxxxl: 8rem;
+}
+
+/* All default stylings */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Silkscreen", sans-serif;
+}
+
+body {
+  background-color: var(--clr-backgroud);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--clr-text);
+}
+
+p,
+a,
+span,
+img,
+li,
+label,
+input,
+textarea,
+select,
+button {
+  color: var(--clr-text);
+}

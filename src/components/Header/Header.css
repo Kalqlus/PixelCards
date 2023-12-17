@@ -1,0 +1,27 @@
+header {
+  height: var(--header-height);
+  border-bottom: 2px solid var(--clr-purple-soft);
+}
+
+header > * {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-wrapper {
+  height: 75%;
+}
+
+.navigation-wrapper {
+  height: 25%;
+  justify-content: space-evenly;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
