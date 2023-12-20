@@ -1,0 +1,6 @@
+.cards-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    outline: 1px solid red;
+    margin: var(--spacing-m);
+}

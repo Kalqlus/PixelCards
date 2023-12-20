@@ -4,7 +4,7 @@ import PathCostatnts from "../views/PathConstants";
 import Layout from "../components/Layout";
 
 import HomePage from "../views/HomePage";
-import CardsInfoPage from "../views/CardsInfoPage";
+import CardsInfoPage from "../views/CardsInfoPage/CardsInfoPage";
 
 
 
